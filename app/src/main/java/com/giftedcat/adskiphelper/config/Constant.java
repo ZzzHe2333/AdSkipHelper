@@ -33,6 +33,6 @@ public class Constant {
      /**
      * 默认上班时间为8时
      * */
-    public static final long SCAN_TIME = 8;   
+    public static final long SCAN_TIME_first_end = 8;   
 
 }
