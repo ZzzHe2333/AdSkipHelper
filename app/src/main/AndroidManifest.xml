@@ -32,7 +32,11 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.LAUNCHER" />
+                <!-- 添加以下NFC相关的过滤器 -->
+                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+                <data android:mimeType="application/com.giftedcat.adskiphelper" />
             </intent-filter>
         </activity>
 
